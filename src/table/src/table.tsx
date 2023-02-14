@@ -6,7 +6,7 @@ import { defineComponent, toRef, ref, onMounted, nextTick, unref } from "vue"
 
 import { Edit, Check, Close } from "@element-plus/icons-vue"
 import { createNamespacs, getI18nKey, getValue } from "@tomiaa/utils"
-import "@tomiaa/theme-chalk/lib/vue3-components/table.css"
+import "./table.scss"
 
 import { useI18n } from "vue-i18n"
 
