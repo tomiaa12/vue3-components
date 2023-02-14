@@ -10,9 +10,8 @@ import {
   HTMLElementDeprecatedTagNameMap,
   HTMLElementTagNameMap,
   SVGElementTagNameMap,
-  ElNodeName,
-  ElementProps,
 } from "@tomiaa/utils"
+import { ElNodeName, ElementProps } from "@/utils"
 import { Editor, Toolbar } from "@wangeditor/editor-for-vue"
 import KForm from ".."
 

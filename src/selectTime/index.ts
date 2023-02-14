@@ -1,5 +1,5 @@
 // 整合导出
-import { withInstall } from "@tomiaa/utils"
+import { withInstall } from "@/utils"
 
 import selectTime from "./src/selectTime.vue"
 

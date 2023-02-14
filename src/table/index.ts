@@ -1,6 +1,6 @@
 import { ElTable, ElPagination } from "element-plus"
 // 整合导出
-import { withInstall } from "@tomiaa/utils"
+import { withInstall } from "@/utils"
 
 import table from "./src/table"
 

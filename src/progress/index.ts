@@ -1,6 +1,6 @@
 import { ElProgress } from "element-plus"
 // 整合导出
-import { withInstall } from "@tomiaa/utils"
+import { withInstall } from "@/utils"
 
 import progress from "./src/progress.vue"
 
