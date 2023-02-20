@@ -41,6 +41,7 @@
     "@element-plus/icons-vue": "^2.0.10",
     "@tomiaa/theme-chalk": "^0.0.5",
     "@tomiaa/utils": "^0.1.6",
+    "@wangeditor/editor": "^5.1.23",
     "@wangeditor/editor-for-vue": "^5.1.12",
     "axios": "^1.3.3",
     "element-plus": "^2.2.30",
