@@ -27,8 +27,8 @@ specifiers:
   typescript: ^4.9.5
   unplugin-vue-define-options: ^1.2.1
   vite: ^4.1.1
+  vite-plugin-css-injected-by-js: ^3.0.1
   vite-plugin-dts: ^1.7.3
-  vite-plugin-libcss: ^1.0.5
   vue: ^3.2.47
   vue-i18n: ^9.2.2
   vue-tsc: ^1.0.24
@@ -64,8 +64,8 @@ devDependencies:
   typescript: 4.9.5
   unplugin-vue-define-options: 1.2.1_vue@3.2.47
   vite: 4.1.1_qwczgscu5yinpidm7yywvcndf4
+  vite-plugin-css-injected-by-js: 3.0.1_vite@4.1.1
   vite-plugin-dts: 1.7.3_rgy4fnry75xg7rw6lgswyd3x2m
-  vite-plugin-libcss: 1.0.5_vite@4.1.1
   vue-tsc: 1.0.24_typescript@4.9.5
 
 packages:
@@ -3987,6 +3987,14 @@ packages:
     engines: {node: '>= 0.10'}
     dev: true
 
+  /vite-plugin-css-injected-by-js/3.0.1_vite@4.1.1:
+    resolution: {integrity: sha512-M4Pv/eJnzEk13T06g79ho/qZXnkonkNs16hQZsK/zik4m1BQAVsHFHBvls0BVW8MVrPl8tvf/jWCZLoX6Khgnw==}
+    peerDependencies:
+      vite: '>2.0.0-0'
+    dependencies:
+      vite: 4.1.1_qwczgscu5yinpidm7yywvcndf4
+    dev: true
+
   /vite-plugin-dts/1.7.3_rgy4fnry75xg7rw6lgswyd3x2m:
     resolution: {integrity: sha512-u3t45p6fTbzUPMkwYe0ESwuUeiRMlwdPfD3dRyDKUwLe2WmEYcFyVp2o9/ke2EMrM51lQcmNWdV9eLcgjD1/ng==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -4006,14 +4014,6 @@ packages:
       - '@types/node'
       - rollup
       - supports-color
-    dev: true
-
-  /vite-plugin-libcss/1.0.5_vite@4.1.1:
-    resolution: {integrity: sha512-NUQwWhn9j8fpRBwHeDr35a3TuRP0xvdIHtJni+3DcnPcq4Vrg+G5A3ZtCJ8y2EC83G97tBJ36svPdiIVuBEfsQ==}
-    peerDependencies:
-      vite: ^2
-    dependencies:
-      vite: 4.1.1_qwczgscu5yinpidm7yywvcndf4
     dev: true
 
   /vite/4.1.1_qwczgscu5yinpidm7yywvcndf4:

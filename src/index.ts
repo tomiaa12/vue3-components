@@ -7,5 +7,6 @@ export * from "./notification"
 export * from "./table"
 export * from "./customElement"
 export * from "./form"
+export * from "./switchDark"
 
 export { plugin as default } from "./components"

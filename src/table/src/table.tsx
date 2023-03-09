@@ -17,8 +17,6 @@ import {
   vLoading,
   ElIcon,
 } from "element-plus"
-import "element-plus/theme-chalk/el-table.css"
-import "element-plus/theme-chalk/el-pagination.css"
 
 const bem = createNamespacs("table")
 

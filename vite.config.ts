@@ -3,6 +3,7 @@ import vue from "@vitejs/plugin-vue"
 import DefineOptions from "unplugin-vue-define-options"
 import vueJsx from "@vitejs/plugin-vue-jsx"
 import path from "path"
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js"
 
 // 生成打包后的 ts 类型文件
 import dts from "vite-plugin-dts"
@@ -18,6 +19,8 @@ export default defineConfig({
       insertTypesEntry: true,
       skipDiagnostics: true,
     }),
+    // 编译为库时，编译后的文件自动引入 css 文件
+    cssInjectedByJsPlugin(),
   ],
   resolve: {
     alias: {
