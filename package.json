@@ -1,6 +1,6 @@
 {
   "name": "@tomiaa/vue3-components",
-  "version": "0.2.4",
+  "version": "0.2.40",
   "private": false,
   "description": "这是一个vue3业务组件库",
   "main": "lib/index.js",
