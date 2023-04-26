@@ -29,7 +29,8 @@
     "selectTime",
     "trend",
     "table",
-    "form"
+    "form",
+    "switchDark"
   ],
   "author": "tomiaa",
   "license": "MIT",
